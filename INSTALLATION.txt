@@ -1,5 +1,7 @@
-CAHIER SANITAIRE V19 — PWA
-Upload the CONTENTS of this folder to the ROOT of your GitHub Pages repository.
-Files: index.html, manifest.json, sw.js, icons/icon-192.png, icons/icon-512.png.
-The app stores records locally in the browser. Use JSON backup/restore for protection.
-GitHub Pages hosts the application; HACCP records are not stored in the GitHub repository.
+CAHIER SANITAIRE V23
+
+1. Décompresser le ZIP.
+2. Publier index.html, manifest.json, sw.js et icons/ sur GitHub Pages.
+3. Ouvrir l'adresse HTTPS dans Chrome.
+4. Installer l'application sur l'écran d'accueil.
+5. Les données HACCP restent dans le stockage local du téléphone.
