@@ -1,13 +1,5 @@
-CAHIER SANITAIRE V17 — PWA
-
-Cette version est préparée comme une application web installable (PWA).
-
-Pour obtenir une icône sur Android :
-1. Héberger ce dossier sur une adresse HTTPS (par exemple un hébergement web personnel).
-2. Ouvrir l’adresse dans Chrome sur le téléphone.
-3. Choisir « Installer l’application » / « Ajouter à l’écran d’accueil ».
-4. L’application s’ouvre ensuite en plein écran et fonctionne hors connexion après son premier chargement.
-
-IMPORTANT : ouvrir simplement index.html depuis « Fichiers » ne suffit généralement pas pour que Chrome propose l’installation PWA.
-
-Les données du cahier restent dans le stockage local du navigateur. Utiliser la fonction Sauvegarde JSON de l’application pour conserver une copie.
+CAHIER SANITAIRE V19 — PWA
+Upload the CONTENTS of this folder to the ROOT of your GitHub Pages repository.
+Files: index.html, manifest.json, sw.js, icons/icon-192.png, icons/icon-512.png.
+The app stores records locally in the browser. Use JSON backup/restore for protection.
+GitHub Pages hosts the application; HACCP records are not stored in the GitHub repository.
