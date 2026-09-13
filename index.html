@@ -403,4 +403,4 @@ function saveMenuServed(){var menu=(config.menus&&config.menus[today()])||[],nam
 function saveQuickStandard(id,label){label=label||(id==='waste'?'Déchets — fin de service':'Contrôle effectué');var n=now(),obs=document.getElementById('qdObs')?.value||'',free=document.getElementById('qdObsfree')?.value||'';var d={taskId:id,label:label,check:obs||'Conforme',observation:free,operator:document.getElementById('operator')?.value||''};records.push({id:Date.now().toString(36)+Math.random().toString(36).slice(2),module:'daily_tick',createdAt:n.stamp,iso:n.iso,date:n.date,time:n.time,operator:d.operator,data:d,attachment:null,corrections:[]});save();home()}
 
 function tick(){document.getElementById('clock').textContent=new Date().toLocaleString('fr-FR')}setInterval(tick,1000);tick();home();
-</script><script>if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));}</script></body></html>
+</script><script>if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js?v=35').catch(()=>{}));}</script></body></html>
