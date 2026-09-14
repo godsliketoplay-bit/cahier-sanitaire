@@ -1,7 +1,19 @@
-CAHIER SANITAIRE V23
+CAHIER SANITAIRE — V35
 
-1. Décompresser le ZIP.
-2. Publier index.html, manifest.json, sw.js et icons/ sur GitHub Pages.
-3. Ouvrir l'adresse HTTPS dans Chrome.
-4. Installer l'application sur l'écran d'accueil.
-5. Les données HACCP restent dans le stockage local du téléphone.
+Fichiers du site/PWA :
+- index.html
+- sw.js
+- manifest.json
+- icons/icon-192.png
+- icons/icon-512.png
+
+Mise à jour GitHub Pages :
+1. Remplacer index.html.
+2. Remplacer sw.js.
+3. Garder manifest.json et le dossier icons.
+4. Commit/push les changements.
+5. Attendre la publication GitHub Pages.
+6. Fermer complètement la PWA puis ouvrir l'adresse GitHub Pages dans Chrome une fois.
+7. Rouvrir la PWA.
+
+Ne pas effacer les données du site si vous souhaitez conserver les données locales existantes.
